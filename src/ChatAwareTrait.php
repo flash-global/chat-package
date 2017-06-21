@@ -10,7 +10,10 @@ use Fei\Service\Chat\Client\Chat;
  */
 trait ChatAwareTrait
 {
-    /** @var  Chat */
+    /**
+     * @Inject(service="chat.client")
+     * @var  Chat
+     */
     protected $chat;
 
     /**
