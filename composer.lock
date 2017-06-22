@@ -566,17 +566,17 @@
         },
         {
             "name": "fei/chat-client",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:flash-global/chat-client.git",
-                "reference": "7fa01bf11e52c5c72abc156f446fe05058e7adc8"
+                "reference": "31d4ebc9e59a15fc463b6974962f608207938e6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.flash-global.net/dist/fei-chat-client-7fa01bf11e52c5c72abc156f446fe05058e7adc8-zip-392290.zip",
-                "reference": "7fa01bf11e52c5c72abc156f446fe05058e7adc8",
-                "shasum": "74fd3c830bc5def45924b0badfa6254e633745b0"
+                "url": "https://composer.flash-global.net/dist/fei-chat-client-31d4ebc9e59a15fc463b6974962f608207938e6f-zip-7f4277.zip",
+                "reference": "31d4ebc9e59a15fc463b6974962f608207938e6f",
+                "shasum": "d01fe928b1fe3f5932f9aff80a422c68b5380436"
             },
             "require": {
                 "fei/api-client": "^1.1.0",
@@ -607,10 +607,10 @@
                 "client"
             ],
             "support": {
-                "source": "https://github.com/flash-global/chat-client/tree/v2.0.0",
+                "source": "https://github.com/flash-global/chat-client/tree/master",
                 "issues": "https://github.com/flash-global/chat-client/issues"
             },
-            "time": "2017-06-21T12:54:09+00:00"
+            "time": "2017-06-22T13:11:08+00:00"
         },
         {
             "name": "fei/chat-common",
