@@ -44,13 +44,13 @@ class ChatPackage
         $baseUrl = $config->get(ChatBaseUrl::class);
 
         $app->getServicesFactory()->registerService([
-            'id' => 'transport.basic',
+            'id' => 'chat.transport.basic',
             'class' => BasicTransport::class,
-            'params' => [$baseUrl],
+            'params' => [['base_uri' => $baseUrl]],
         ]);
 
         $setters = [
-            'setTransport' => [new ServiceReference('transport.basic')],
+            'setTransport' => [new ServiceReference('chat.transport.basic')],
         ];
 
         $app->getServicesFactory()->registerService(
