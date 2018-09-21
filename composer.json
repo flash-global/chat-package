@@ -16,13 +16,17 @@
     },
     "repositories": [
         {
+            "type": "git",
+            "url": "git@github.com:flash-global/chat-client.git"
+        },
+        {
             "type": "composer",
             "url": "https://composer.flash.global"
         }
     ],
     "require": {
         "objective-php/application": "~1.1.0",
-        "fei/chat-client": "~2.0.0"
+        "fei/chat-client": "^2.1"
     },
     "require-dev": {
         "phpro/grumphp": "^0.11.1",
