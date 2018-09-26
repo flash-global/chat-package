@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2278f628e6101653c5ee77e1e55a9a6",
+    "content-hash": "12a028583f7d9cf3b10bf5b45c358b85",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -528,17 +528,11 @@
         },
         {
             "name": "fei/api-client",
-            "version": "v1.2.7",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flash-global/api-client.git",
-                "reference": "0e0911feccf62d6c1c00c51d3a14cc989151d252"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.flash.global/dist/fei-api-client-0e0911feccf62d6c1c00c51d3a14cc989151d252-zip-103758.zip",
-                "reference": "0e0911feccf62d6c1c00c51d3a14cc989151d252",
-                "shasum": "520c85c612116c13d1625cc044c53c85de7c7689"
+                "url": "git@github.com:flash-global/api-client.git",
+                "reference": "f925992cbda504a466a8cb36f0e7f509a4a5b53f"
             },
             "require": {
                 "fei/entities": "1.*",
@@ -548,6 +542,8 @@
             "require-dev": {
                 "codeception/aspect-mock": "*",
                 "codeception/codeception": "^2.2",
+                "jakub-onderka/php-parallel-lint": "^1.0",
+                "phpro/grumphp": "^0.14.2",
                 "squizlabs/php_codesniffer": "3.*"
             },
             "bin": [
@@ -570,11 +566,7 @@
                 }
             ],
             "description": "Client side API helpers",
-            "support": {
-                "source": "https://github.com/flash-global/api-client/tree/master",
-                "issues": "https://github.com/flash-global/api-client/issues"
-            },
-            "time": "2018-03-15T16:08:51+00:00"
+            "time": "2018-09-20T15:13:53+00:00"
         },
         {
             "name": "fei/chat-client",
